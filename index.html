@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particall</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <svg width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_100_874)">
+            <rect width="100" height="100" rx="50" fill="#33CC95"/>
+            <path d="M50 33.3333C56.9036 33.3333 62.5 27.7368 62.5 20.8333C62.5 13.9297 56.9036 8.33325 50 8.33325C43.0964 8.33325 37.5 13.9297 37.5 20.8333C37.5 27.7368 43.0964 33.3333 50 33.3333Z" stroke="#6933FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M50 91.6666V33.3333" stroke="#6933FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20.8335 50H8.3335C8.3335 61.0507 12.7234 71.6488 20.5374 79.4628C28.3514 87.2768 38.9495 91.6667 50.0002 91.6667C61.0508 91.6667 71.6489 87.2768 79.4629 79.4628C87.277 71.6488 91.6668 61.0507 91.6668 50H79.1668" stroke="#6933FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_100_874">
+            <rect width="100" height="100" rx="50" fill="white"/>
+            </clipPath>
+            </defs>
+        </svg>
+            
+        <div class="conta">
+            <h3>Conta</h3>
+            <a href="#" class="foto-perfil"><img src="perfil.png" alt=""></a>
+        </div>
+    </header>
+
+    <div class="titulo">
+        <h3>Faça seu Login</h3>
+    </div>
+
+    <form id="form" class="dados">
+        <h3>E-mail:</h3>
+        <input id="email" value="" type="email" name="categoria" size="70" placeholder="Digite o seu e-mail">
+        <h3>Senha:</h3>
+        <input id="senha" value="" type="password" name="categoria" size="70" placeholder="Digite a sua senha">
+        <h3>Selecione como voce quer logar: </h3>
+        <select name="select">
+            <option value="valor1" selected>-= Origem =-</option>
+            <option value="valor2">Professor</option>
+            <option value="valor3">Aluno</option>
+        </select>
+        <button id="entrar" type="submit" class="btn btn-primary" >Entrar</button>
+        <p id="message"></p>
+    </form>
+
+
+
+
+    <footer>
+        <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_100_1225)">
+                <rect width="100" height="100" rx="50" fill="#33CC95" />
+                <path
+                    d="M50 33.3335C56.9036 33.3335 62.5 27.7371 62.5 20.8335C62.5 13.9299 56.9036 8.3335 50 8.3335C43.0964 8.3335 37.5 13.9299 37.5 20.8335C37.5 27.7371 43.0964 33.3335 50 33.3335Z"
+                    stroke="#6933FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M50 91.6668V33.3335" stroke="#6933FF" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M20.8335 50H8.3335C8.3335 61.0507 12.7234 71.6488 20.5374 79.4628C28.3514 87.2768 38.9495 91.6667 50.0002 91.6667C61.0508 91.6667 71.6489 87.2768 79.4629 79.4628C87.277 71.6488 91.6668 61.0507 91.6668 50H79.1668"
+                    stroke="#6933FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <defs>
+                <clipPath id="clip0_100_1225">
+                    <rect width="100" height="100" rx="50" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+
+        <nav>
+            <a> Contac Us </a>
+            <a> About </a>
+        </nav>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
